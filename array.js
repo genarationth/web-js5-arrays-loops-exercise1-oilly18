@@ -10,8 +10,13 @@ console.log (myAlphabet.length);
 //     - Console.log each item in the array. Also console.log the index for each planet.
 
 const Planets = ['Earth', 'Mar', 'Jupiter', 'Sun', 'Nepjune']
-console.log (Planets[0]);
+console.log (Planets);
+Planets.forEach(function(members) {
+    console.log(members);
+});
 
 // #### 1.3 Console.log each item in this array: let myArr = [ 1, 2, 'One', true]; 
 let myArr = [ 1, 2, 'One', true];
-console.log (myArr);
+myArr.forEach(function(members) {
+    console.log(members);
+});
